@@ -54,7 +54,7 @@
 		for($i = 0; $i < $len; $i++)
 		{
 			$display_var .= '<tr>';
-			$display_var .=	"<td><img src='$images[$i]'/></td>";
+			$display_var .=	"<td><a href='$links[$i]'><img src='$images[$i]'/></a></td>";
 			$display_var .= "<td>$names[$i]</td>";
 			$display_var .= "<td>Rs.$prices[$i]</td>";
 			$display_var .= "<td>$discounts[$i]</td>";
