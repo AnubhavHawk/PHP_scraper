@@ -96,6 +96,7 @@
 <body>
 		<div id="my_div"></div>
 		<script>
+			//call it for the fist time to render the results on the screen
 			printIt();
 			function printIt()
 			{
