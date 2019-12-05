@@ -60,6 +60,7 @@
 			$display_var .= "<td>$discounts[$i]</td>";
 			$display_var .= "</tr>";
 		}
+		//check for the price drop
 		if($check_price == 1)
 		{
 			for($i = 0; $i < $len; $i++)
@@ -68,7 +69,7 @@
 				{
 					$subject = $names[$i];
 					$message = "Check out this ".$links[$i];
-					$to = "hawkanubhav@gmail.com";
+					$to = "admin@example.abc"; //------------------------use your email below
 					mail($to, $subject, $message);
 				}
 			}
